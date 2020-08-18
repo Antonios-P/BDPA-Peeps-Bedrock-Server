@@ -11,4 +11,4 @@ enchanted: "§aYou've successfully enchanted §d[0] ([1])§a on your item."
 # form
 title: "§f|» §dEnchantment Table §f«|"
 content: "§fHere you can §denchant §fyour item."
-button: "§f[§d0§f] §f([§d1§f]) for [§a2§f] levels"
+button: "§d[0] [1] §ffor §a[2] §flevels"
