@@ -65,3 +65,28 @@ owner:
   #Name of the dynamic prefix(returned by getName()).
   dprefix:
 
+srithan:
+  #This permission should be unique to this group of players.
+  perm: chatformat.srithan
+  #Index of prefix starts from 1.
+  #e.g. prefixs[1]=AB, prefixs[2]=BC
+  prefixs:
+    - §6Srithan§c§oSk8§f
+  suffix:
+  #The prefix is used one by one.
+  template: "&f[%prefix%&f]: %message%"
+  #Name of the dynamic prefix(returned by getName()).
+  dprefix:
+
+danny:
+  #This permission should be unique to this group of players.
+  perm: chatformat.danny   
+  #Index of prefix starts from 1.
+  #e.g. prefixs[1]=AB, prefixs[2]=BC
+  prefixs:
+    - §f[§6Danny§cisA§aDepressed§cTaco§f]
+  suffix:
+  #The prefix is used one by one.
+  template: "&f[%prefix%&f]: %message%"
+  #Name of the dynamic prefix(returned by getName()).
+  dprefix:

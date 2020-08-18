@@ -14,12 +14,11 @@
 # Example usage: /ban Leoko @ExampleLayout
 Message:
   hacking:
-    - '%PREFIX% &cYou Were Banned for Hacking (%REASON%)'
+    - '%PREFIX% &cYou Were Banned for Hacking'
     - '&e&oYou Were Banned by &9%OPERATOR%'
-    - "&cIt seems like you are using a"
-    - "&chacked client. Please disable it!"
-    - "&eYou have been banned %ID% time(s) to date."
-    - "&cYou Will be Unbanned in &8\xbb &7&f%DURATION%"
+    - "&cIt seems like you are using a hacked client. Please disable it!"
+    - "&eYou have been banned %ID% time(s) to date. &fTo Make an appeal, join the &dDiscord Server &fat &bdiscord.gg/&dYXffpen&f."
+    - "&cYou Will be Unbanned in &8\xbb &7&f%DURATION%."
 
 # You would use this time-layout for example like this: "/tempban Leoko #ExampleLayout Hacking in FFA"
 # Or with "/tempwarn Leoko #ExampleLayout Advertising" or even "/tempwarn Leoko #ExampleLayout No capslock please"
