@@ -1,0 +1,14 @@
+prefix: "§f|» §dEnchantment Table §f«|: "
+
+# errors
+not.enough.levels: "§cYou don't have enough XP levels."
+already.enchanted.this: "§cYou've already applied this enchantment on your item."
+no.enchantments: "§cThere are no enchantments for this item."
+
+# general
+enchanted: "§aYou've successfully enchanted §d[0] ([1])§a on your item."
+
+# form
+title: "§f|» §dEnchantment Table §f«|"
+content: "§fHere you can §denchant §fyour item."
+button: "§f[§d0§f] §f([§d1§f]) for [§a2§f] levels"

@@ -1,0 +1,15 @@
+# Available Variables:
+# <NAME> Player's name
+# <WORLD> World name
+# <X> X coordinate
+# <Y> Y Coordinate
+# <Z> Z coordinate
+# <N> Switches to next line
+# <PLAYERS> Number of players online
+# <MAXPLAYERS> Max amount of players
+# <PING> Player's ping
+# <TPS> Server TPS
+# <FNAME> Faction name
+# <MONEY> Money amount from EconomyAPI
+
+Message: "&fDisplay Name: &9<NAME>&r    Coordinates: &c<X>&f, &a<Y>&f, &b<Z><N>&fPlayers Online: &a<PLAYERS>&f/&c<MAXPLAYERS>   &fYour Ping: &a<PING>&fms"

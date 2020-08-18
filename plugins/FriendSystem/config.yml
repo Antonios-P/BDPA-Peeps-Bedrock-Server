@@ -1,0 +1,13 @@
+Provider: MySql
+MySql:
+  Host: "localhost"
+  Port: "3306"
+  Database: "friendsystem"
+  User: "friendsystem"
+  Password: "GpRWZPhVYs5xGmKyw56DP2He8jYppG2NSEQ98RpUFYtJVjvuH7vf2mZAyZbPDfsE"
+MongoDB:
+  Uri: ""
+  Database: "friendsystem"
+
+Commands:
+  Friend: "friends"

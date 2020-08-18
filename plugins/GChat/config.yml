@@ -1,0 +1,22 @@
+CONFIG_VERSION: 1
+
+#Whether the plugin will compile dynamic prefixs.
+#This won't affect whether the files will be loaded.
+auto-compile: false
+
+#The index of the prefix which will be modified by /gcset /gcedit.
+prefix-index: 1
+
+#Whether or not to use the auto storage function for player's format.
+#You should not use it if you have a good permission plugin.
+#The reason is that using this will increase the memory usage since it creats a new format for each player.
+storage: false
+
+fast-switch: "=="
+#Make players able to use the values above to switch between chat rooms and global.
+#For example, if a player in a chat room typed ">>hi", this message will be broadcast to everyone(not including ">>").
+#Remove this key or set the value to some weird stuff(stuffs that are not going to appear in players messages) will disable this feature.
+
+#Whether to use Placeholder, must have it installed.
+#Placeholder is like a bunch of preloaded dynamic_prefix.
+use-placeholder: false

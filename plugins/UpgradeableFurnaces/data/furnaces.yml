@@ -1,0 +1,25 @@
+Furnaces:
+  NHW3TXKSSG: &id001
+    X: 1760
+    Y: 89
+    Z: -111
+    Level: world
+    Upgrade: 3
+    Owner: MagmaCube20
+  1I1P2HU9EZ: &id002
+    X: 1760
+    Y: 89
+    Z: -110
+    Level: world
+    Upgrade: 3
+    Owner: MagmaCube20
+  BTIGGUF5FU:
+    X: 1760
+    Y: 89
+    Z: -110
+    Level: world
+    Upgrade: 3
+    Owner: MagmaCube20
+Ban:
+  NHW3TXKSSG: *id001
+  1I1P2HU9EZ: *id002
