@@ -12,4 +12,4 @@
 # <FNAME> Faction name
 # <MONEY> Money amount from EconomyAPI
 
-Message: "&fDisplay Name: &9<NAME>&r    Coordinates: &c<X>&f, &a<Y>&f, &b<Z><N>&fPlayers Online: &a<PLAYERS>&f/&c<MAXPLAYERS>   &fYour Ping: &a<PING>&fms"
+Message: "§fDisplay Name: §9<NAME>§r    §fCoordinates: §c<X>§f, §a<Y>§f, §b<Z><N>§fPlayers Online: §a<PLAYERS>§f/§c<MAXPLAYERS>   §fYour Ping: §a<PING>§fms"

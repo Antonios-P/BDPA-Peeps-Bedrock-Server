@@ -19,7 +19,7 @@ checks:
   speed: true #vertical and horizontal speed
   fly: true #fly and other invalid movement checks
   speedmine: true
-  nuker: false #checks if player can see the block (this check takes a bit more CPU than other checks)
+  nuker: true #checks if player can see the block (this check takes a bit more CPU than other checks)
   glide: true
   teleport: true
   noclip: true
