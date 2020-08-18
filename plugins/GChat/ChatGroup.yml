@@ -58,7 +58,7 @@ owner:
   #Index of prefix starts from 1.
   #e.g. prefixs[1]=AB, prefixs[2]=BC
   prefixs:
-    - OWNER
+    - §6O§aW§bN§cE§eR
   suffix:
   #The prefix is used one by one.
   template: "&f[&9%prefix%&f] %name%: %message%"
