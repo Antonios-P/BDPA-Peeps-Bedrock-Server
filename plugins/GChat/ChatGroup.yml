@@ -61,7 +61,7 @@ owner:
     - §6O§aW§bN§cE§eR
   suffix:
   #The prefix is used one by one.
-  template: "&f[&9%prefix%&f] %name%: %message%"
+  template: "&f[&9%prefix%&f] §bAntonios§f: §e%message%"
   #Name of the dynamic prefix(returned by getName()).
   dprefix:
 
@@ -71,7 +71,7 @@ srithan:
   #Index of prefix starts from 1.
   #e.g. prefixs[1]=AB, prefixs[2]=BC
   prefixs:
-    - §6Srithan§c§oSk8§f
+    - §6Srithan§c§oSk8§r§f
   suffix:
   #The prefix is used one by one.
   template: "&f[%prefix%&f]: %message%"
