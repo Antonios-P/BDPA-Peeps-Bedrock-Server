@@ -35,10 +35,12 @@ FOR MEMBERS:
 
 10. Staff Chat:
     * You are able to talk only to Staff and above using ```/sc [Message]```.
+11. Suppport System:
+    * respond to requests with ```/sa [PlayerName] [ResponseMessage]```
     
 # Additional Information for Chat-Mods and Above (Chat-Mod and Above Rank *REQUIRED*)
 
-11. BDPA Ban System:
+12. BDPA Ban System:
 
 Keys:
   * ```[NEEDED]```
@@ -69,6 +71,6 @@ Alias: /tipban
 
 # Additional Information for Mods and Above (Mod and Above Rank *REQUIRED*):
 
-12. Player Freeze System
+13. Player Freeze System
    * ```/freeze [player|all]``` - Freeze a player (or *ALL*)
    * ```/unfreeze [player|all]``` - Unfreeze a player (or *ALL*)
