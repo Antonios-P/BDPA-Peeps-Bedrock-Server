@@ -17,8 +17,22 @@ Message:
     - '%PREFIX% &cYou Were Banned for Hacking'
     - '&e&oYou Were Banned by &9%OPERATOR%'
     - "&cIt seems like you are using a hacked client. Please disable it!"
-    - "&eYou have been banned %ID% time(s) to date. &fTo Make an appeal, join the &dDiscord Server &fat &bdiscord.gg/&dYXffpen&f."
-    - "&cYou Will be Unbanned in &8\xbb &7&f%DURATION%."
+    - "&eYou have been banned %ID% time(s). &fAppeal at &bdiscord.gg/&dYXffpen&f."
+    - "&cYou Will be Unbanned in: &7&f%DURATION%."
+
+  language:
+    - '%PREFIX% &cYou Were Banned for Using Coarse Language'
+    - '&e&oYou Were Banned by &9%OPERATOR%'
+    - '&eYou have been banned %ID% time(s). &fAppeal at &bdiscord.gg/&dYXffpen&f.'
+    - "&eThis action &lSEVERELY&r&e&l&o degrades the server atmosphere."   
+    - '&cYou Will be Unbanned in: &7&f%DURATION%.'
+
+  abuse:
+    - '%PREFIX% &cYou Were Banned for Inflicting Abuse'
+    - '&e&oYou Were Banned by &9%OPERATOR%'
+    - '&eYou have been banned %ID% time(s). &fAppeal at &bdiscord.gg/&dYXffpen&f.'
+    - "&eThis action &lSEVERELY&r&e&l&o degrades the player on the other end."
+    - '&cYou Will be Unbanned in: &7&f%DURATION%.'
 
 # You would use this time-layout for example like this: "/tempban Leoko #ExampleLayout Hacking in FFA"
 # Or with "/tempwarn Leoko #ExampleLayout Advertising" or even "/tempwarn Leoko #ExampleLayout No capslock please"
@@ -31,5 +45,24 @@ Time:
     - '1w'
     - '1mo'
     - '2mo'
+    - '4mo'
+    - 'perma'
+  language:
+    - '5m'
+    - '15m'
+    - '1h'
+    - '6h'
+    - '1d'
+    - '5d'
+    - '2w'
+    - '1mo'
+    - '2mo'
+    - '4 mo'
+    - 'perma'
+  abuse:
+    - '4h'
+    - '24h'
+    - '1w'
+    - '1mo'
     - '4mo'
     - 'perma'

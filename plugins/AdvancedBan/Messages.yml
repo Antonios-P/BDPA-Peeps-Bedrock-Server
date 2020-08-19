@@ -1,5 +1,5 @@
 General:
-  Prefix: "&bBDPA Peeps Ban System ->> &8&l\xbb"
+  Prefix: "&bBDPA Peeps Ban System &8&l\xbb"
   NoPerms: "&cYou don't have perms for that!"
   LayoutNotFound: "&cThere is no layout called %NAME%"
   # This will be the replacement for the %DURATION% variable
