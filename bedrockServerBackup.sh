@@ -27,19 +27,16 @@ if [ "$EXIT1" = 0 ]; then
 	echo success removing server logs
 else
 	echo there are no server logs now! 
-	exit "$EXIT1"
 fi
 
 if [ "$EXIT2" = 0 ]; then
         echo success removing AdvancedBan logs
 else
         echo There are no AdvancedBan logs now!
-        exit "$EXIT2"
 fi
 
 if [ "$EXIT3" = 0 ]; then
         echo success removing the world regions
 else
         echo There are no world regions now!
-        exit "$EXIT3"
 fi
