@@ -15,28 +15,40 @@ echo moved README to BDPA-Peeps-Bedrock-Server/ directory
 
 rm -r BDPA-Peeps-Bedrock-Server/logs/*
 EXIT1=$(echo $?)
-echo removed server logs
 rm -r BDPA-Peeps-Bedrock-Server/plugins/AdvancedBan/logs/*
 EXIT2=$(echo $?)
-echo removed AdvancedBan logs
 rm -r BDPA-Peeps-Bedrock-Server/worlds/world/region/* && BDPA-Peeps-Bedrock-Server/worlds/nether/region/*
 EXIT3=$(echo $?)
-echo removed cached world regions
 
 if [ "$EXIT1" = 0 ]; then
 	echo success removing server logs
+elif [ "$EXIT1" = 1 ]; then 
+	echo there are no server logs now! No need to remove.
 else
-	echo there are no server logs now! 
+	echo An unknown error occurred while removing server logs
+	echo exit code: "$EXIT1"
+	exit "$EXIT1" 
 fi
 
 if [ "$EXIT2" = 0 ]; then
         echo success removing AdvancedBan logs
+elif [ "$EXIT2" = 1 ]; then 
+	echo there are AdvancedBan logs now! No need to remove.
 else
-        echo There are no AdvancedBan logs now!
+        echo An unknown error occurred while removing AdvancedBan logs
+	echo exit code: "$EXIT2"
+	exit "$EXIT2"
 fi
 
 if [ "$EXIT3" = 0 ]; then
-        echo success removing the world regions
+        echo success removing cached world regions
+elif [ "$EXIT3" = 1 ]; then 
+	echo there are no cached world regions now! No need to remove.
 else
-        echo There are no world regions now!
+        echo An unknown error occurred while removing cached world regions
+	echo exit code: "$EXIT3"
+	exit "$EXIT3"
 fi
+
+echo backup completed successfully
+exit 0
