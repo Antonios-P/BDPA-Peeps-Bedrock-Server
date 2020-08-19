@@ -36,7 +36,7 @@ FOR MEMBERS:
 10. Staff Chat:
     * You are able to talk only to Staff and above using ```/sc [Message]```.
     
-# Additional Information for Chat-Mod and Above (Chat-Mod and Above Rank *REQUIRED*)
+# Additional Information for Chat-Mods and Above (Chat-Mod and Above Rank *REQUIRED*)
 
 11. BDPA Ban System:
 
@@ -66,3 +66,9 @@ Alias: /tipban
    * ```/advancedban reload``` - Reloads the messages from file and "some" settings
    * ```/advancedban help``` - Shows a list of all commands and a brief explanation
    * ```/systemprefs``` - Displays some System-Information which are useful for the configuration
+
+# Additional Information for Mods and Above (Mod and Above Rank *REQUIRED*):
+
+12. Player Freeze System
+   * ```/freeze [player|all]``` - Freeze a player (or *ALL*)
+   * ```/unfreeze [player|all]``` - Unfreeze a player (or *ALL*)
