@@ -51,3 +51,18 @@ Commands:
    * ```/ban /mute /warn [PLAYER] <-s> <REASON | @LAYOUT>``` - Ban/Mute/Warn a player
    * ```/banip [PLAYER/IP] <-s> <REASON | @LAYOUT>``` - Ban a player's IP. If you enter a name (ex: MagmaCube20) it will use the cached IP
    * ```/tempban /tempmute /tempwarn [PLAYER] [Xmo|Xd|Xh|Xm|Xs|#TIMELAYOUT] <-s> <REASON | @LAYOUT>``` - Tempban/mute/warn a player for a given time or with a time-layout for automatic-time-calcualtion
+   * ```/tempipban [PLAYER/IP] [Xmo|Xd|Xh|Xm|Xs|#TIMELAYOUT] <-s> <REASON | @LAYOUT>``` - Temippban a player for a given time or with a time-layout for automatic-time-calcualtion
+Alias: /tipban
+   * ```/change-reason [ID] [New reason]``` - Change the reason for a punishment by id
+   * ```/change-reason [ban/mute] [PLAYER] [New reason]``` - Change the reason for a players punishment
+   * ```/unban /unmute [PLAYER]``` - Unban/Unmute a Player
+   * ```/unwarn [ID]``` - Delete a warn
+   * ```/unpunish [ID]``` - Delete a punishment
+   * ```/warns <PLAYER>``` - See your own or a player's warnings.
+   * ```/check [PLAYER]``` - Get player-status: UUID/IP/Country/Ban-Status/Mute-Status/Warn-Count
+   * ```/banlist <PAGE>``` - See all currently active punishments
+   * ```/history [PLAYER] <PAGE>``` - See all currently active punishments
+   * ```/history [PLAYER] <PAGE>``` - To use the command - ab.history
+   * ```/advancedban reload``` - Reloads the messages from file and "some" settings
+   * ```/advancedban help``` - Shows a list of all commands and a brief explanation
+   * ```/systemprefs``` - Displays some System-Information which are useful for the configuration
