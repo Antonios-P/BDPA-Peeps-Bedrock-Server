@@ -3,6 +3,9 @@
 #Move the README to the previous directory so it doesn't get deleted
 mv BDPA-Peeps-Bedrock-Server/README.md README.md
 echo moved README to ../ directory
+#Move License to the previous directory so it doesn't get deleted
+mv BDPA-Peeps-Bedrock-Server/License.md License.md
+echo moved License to ../ directory
 #delete all the files to prep for the backup
 rm -r BDPA-Peeps-Bedrock-Server/*
 echo deleted all files in BDPA-Peeps-Bedrock-Server/ directory
@@ -12,7 +15,14 @@ rsync -azvh pi@bdpapeeps:bdpapeeps/* /Users/antonios/github-repos/BDPA-Peeps-Bed
 #Move the README back into the repo directory
 mv README.md BDPA-Peeps-Bedrock-Server/README.md
 echo moved README to BDPA-Peeps-Bedrock-Server/ directory
+#Move the License back into the repo directory
+mv License.md BDPA-Peeps-Bedrock-Server/License.md
+echo Moved License back to the repository directory
+#Copy over the backup script to the repository directory
+cp bedrockServerBackup.sh BDPA-Peeps-Bedrock-Server/bedrockServerBackup.sh
+echo Moved Backup script to repository directory
 
+#remove all the cached files that are unnecessary for the operation of the server
 rm -r BDPA-Peeps-Bedrock-Server/logs/*
 EXIT1=$(echo $?)
 rm -r BDPA-Peeps-Bedrock-Server/plugins/AdvancedBan/logs/*
