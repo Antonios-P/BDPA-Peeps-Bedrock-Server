@@ -71,6 +71,10 @@ Alias: /tipban
 
 # Additional Information for Mods and Above (Mod and Above Rank *REQUIRED*):
 
-13. Player Freeze System
+13. Player Freeze System:
    * ```/freeze [player|all]``` - Freeze a player (or *ALL*)
    * ```/unfreeze [player|all]``` - Unfreeze a player (or *ALL*)
+
+14. Player Tracking System:
+   * ```/track [PlayerName]``` - Track a Player
+   * ```/track close``` - Closing the tracking session
