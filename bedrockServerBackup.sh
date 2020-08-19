@@ -27,7 +27,7 @@ rm -r BDPA-Peeps-Bedrock-Server/logs/*
 EXIT1=$(echo $?)
 rm -r BDPA-Peeps-Bedrock-Server/plugins/AdvancedBan/logs/*
 EXIT2=$(echo $?)
-rm -r BDPA-Peeps-Bedrock-Server/worlds/world/region/* && BDPA-Peeps-Bedrock-Server/worlds/nether/region/*
+rm -r BDPA-Peeps-Bedrock-Server/worlds/world/region/* && rm -r BDPA-Peeps-Bedrock-Server/worlds/nether/region/*
 EXIT3=$(echo $?)
 
 if [ "$EXIT1" = 0 ]; then
