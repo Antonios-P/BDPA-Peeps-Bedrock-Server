@@ -53,6 +53,14 @@ Commands:
    * ```/ban /mute /warn [PLAYER] <-s> <REASON | @LAYOUT>``` - Ban/Mute/Warn a player
    * ```/banip [PLAYER/IP] <-s> <REASON | @LAYOUT>``` - Ban a player's IP. If you enter a name (ex: MagmaCube20) it will use the cached IP
    * ```/tempban /tempmute /tempwarn [PLAYER] [Xmo|Xd|Xh|Xm|Xs|#TIMELAYOUT] <-s> <REASON | @LAYOUT>``` - Tempban/mute/warn a player for a given time or with a time-layout for automatic-time-calcualtion
+      * **Supported** ```#TIMELAYOUT```**s:**
+         * ```#hacking```: used to tempban the player when it is confirmed that they are hacking. This has a middle-ground ban curve.
+         * ```#abuse```: used to tempban the player when they inflict cyber-abuse or any digital harm in the server. This has the steepest ban curve.
+         * ```#language```: used to tempban the player when they use coarse language in the server. This has the shallowest ban curve.
+      * **Supported** ```@LAYOUT```**s:**
+         * ```@hacking```: Same as shown above.
+         * ```@abuse```: Same as shown above.
+         * ```@language```: Same as shown above.
    * ```/tempipban [PLAYER/IP] [Xmo|Xd|Xh|Xm|Xs|#TIMELAYOUT] <-s> <REASON | @LAYOUT>``` - Temippban a player for a given time or with a time-layout for automatic-time-calcualtion
 Alias: /tipban
    * ```/change-reason [ID] [New reason]``` - Change the reason for a punishment by id
