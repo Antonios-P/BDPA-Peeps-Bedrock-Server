@@ -1,5 +1,5 @@
 # BDPA-Peeps-Bedrock-Server
-This is the Official Repository of the Official BDPA Peeps Bedrock Server
+This is the Official Repository of the Official BDPA Peeps Bedrock Server (The Webhook is working!)
 
 
 # Command/Feature Cheat Sheet
