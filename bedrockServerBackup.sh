@@ -30,6 +30,7 @@ EXIT2=$(echo $?)
 rm -r BDPA-Peeps-Bedrock-Server/worlds/world/region/* && rm -r BDPA-Peeps-Bedrock-Server/worlds/nether/region/*
 EXIT3=$(echo $?)
 
+#these if statements check all of the error codes in case something happened and responds accordingly
 if [ "$EXIT1" = 0 ]; then
 	echo success removing server logs
 elif [ "$EXIT1" = 1 ]; then 
@@ -60,5 +61,6 @@ else
 	exit "$EXIT3"
 fi
 
+#does a successful finish if no errors occured
 echo backup completed successfully
 exit 0
