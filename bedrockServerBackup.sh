@@ -6,6 +6,9 @@ echo moved README to ../ directory
 #Move License to the previous directory so it doesn't get deleted
 mv BDPA-Peeps-Bedrock-Server/License.md License.md
 echo moved License to ../ directory
+#Move Changelog to the previous directory so it doesn't get deleted
+mv BDPA-Peeps-Bedrock-Server/changelog.md changelog.md
+echo moved Changelog to ../ directory
 #delete all the files to prep for the backup
 rm -r BDPA-Peeps-Bedrock-Server/*
 echo deleted all files in BDPA-Peeps-Bedrock-Server/ directory
@@ -18,6 +21,9 @@ echo moved README to BDPA-Peeps-Bedrock-Server/ directory
 #Move the License back into the repo directory
 mv License.md BDPA-Peeps-Bedrock-Server/License.md
 echo Moved License back to the repository directory
+#Move the Changelog back into the repo directory
+mv changelog.md BDPA-Peeps-Bedrock-Server/changelog.md
+echo Moved Changelog back to the repository directory
 #Copy over the backup script to the repository directory
 cp bedrockServerBackup.sh BDPA-Peeps-Bedrock-Server/bedrockServerBackup.sh
 echo Moved Backup script to repository directory
