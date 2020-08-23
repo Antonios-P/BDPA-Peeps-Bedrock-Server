@@ -2,14 +2,14 @@ OnPlayerJoin:
   volume: 1
   pitch: 1
   name: random.levelup
-  delay: 3
+  delay: 0
 OnPlayerQuit:
   volume: 1
   pitch: 1
   name: ambient.weather.lightning.impact
-  delay: 3
+  delay: 0
 OnPlayerDeath:
   volume: 1
   pitch: 1
   name: random.hurt
-  delay: 3
+  delay: 0
