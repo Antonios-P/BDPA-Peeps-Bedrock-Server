@@ -35,6 +35,8 @@ rm -r BDPA-Peeps-Bedrock-Server/plugins/AdvancedBan/logs/*
 EXIT2=$(echo $?)
 rm -r BDPA-Peeps-Bedrock-Server/worlds/world/region/* && rm -r BDPA-Peeps-Bedrock-Server/worlds/nether/region/*
 EXIT3=$(echo $?)
+rm -r BDPA-Peeps-Bedrock-Server/players/*
+EXIT4=$(echo $?)
 
 #these if statements check all of the error codes in case something happened and responds accordingly
 if [ "$EXIT1" = 0 ]; then
@@ -65,6 +67,16 @@ else
         echo An unknown error occurred while removing cached world regions
 	echo exit code: "$EXIT3"
 	exit "$EXIT3"
+fi
+
+if [ "$EXIT4" = 0 ]; then
+	echo success removing player data
+elif [ "$EXIT4" = 1 ]; then 
+	echo there is no player data now! No need to remove.
+else
+	echo An unknown error occurred while removing player data
+	echo exit code: "$EXIT4"
+	exit "$EXIT4" 
 fi
 
 #does a successful finish if no errors occured
