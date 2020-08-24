@@ -1,5 +1,10 @@
 # Changelog
 ---
+## v1.2
+ * Added FastAsyncWorldEdit
+ * Added Another Incremental Backup
+ * Redumped Databases
+ * Changed Permissions for FAWE
 ## v1.1
   * Regenerated World
   * Changed Delay of Some Sound Effects
