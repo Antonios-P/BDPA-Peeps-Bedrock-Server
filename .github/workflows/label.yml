@@ -7,30 +7,12 @@
 
 name: Labeler
 on: [pull_request]
-
-jobs:
-  label:
-
-    runs-on: ubuntu-latest
-  backup script:
-  - bedrockServerBackup.sh
-  worlds:
-  - worlds/*
-  sqldump:
-  - sqldump/*
-  resource packs:
-  - resource_packs
-  libraries:
-  - libraries/*
-  plugins:
-  - plugins/*
-  backup archive:
-  - archives/*
-  server properties:
-  - server.properties
-
-
-    steps:
-    - uses: actions/labeler@v2
-      with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+runs:
+  backup script: 'bedrockServerBackup.sh'
+  worlds: 'worlds/*'
+  sqldump: 'sqldump/*'
+  resource packs: 'resource_packs'
+  libraries: 'libraries/*'
+  plugins: 'plugins/*'
+  backup archive: 'archives/*'
+  server properties: 'server.properties'
