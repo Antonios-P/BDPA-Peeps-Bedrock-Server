@@ -37,6 +37,8 @@ rm -r BDPA-Peeps-Bedrock-Server/worlds/world/region/* && rm -r BDPA-Peeps-Bedroc
 EXIT3=$(echo $?)
 rm -r BDPA-Peeps-Bedrock-Server/players/*
 EXIT4=$(echo $?)
+rm -r BDPA-Peeps-Bedrock-Server/plugins/FastAsyncWorldEdit/history
+EXIT5=$(echo $?)
 
 #these if statements check all of the error codes in case something happened and responds accordingly
 if [ "$EXIT1" = 0 ]; then
@@ -82,3 +84,13 @@ fi
 #does a successful finish if no errors occured
 echo backup completed successfully
 exit 0
+
+if [ "$EXIT5" = 0 ]; then
+	echo success removing FAWE history
+elif [ "$EXIT5" = 1 ]; then 
+	echo there is no FAWE history now! No need to remove.
+else
+	echo An unknown error occurred while removing FAWE history
+	echo exit code: "$EXIT5"
+	exit "$EXIT5" 
+fi
