@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'We have received your issue. We will try to respond as fast as possible. In the meantime, you can relax. Thank you!'
+        pr-message: 'Thank you for your contributions! We will check this PR as fast as possible and merge upon inspection.'
