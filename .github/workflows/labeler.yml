@@ -7,6 +7,7 @@
 
 name: Labeler
 on: [pull_request]
+uses: actions/labeler@v2
 runs:
   backup script: 'bedrockServerBackup.sh'
   worlds: 'worlds/*'
